@@ -1,22 +1,36 @@
 :root {
-    --blue: #1e90ff;
-    --green: #75a888;
-    --black: #000000;
-    --white: #ffffff;
-    
-  }
-  
-  body { background-color: var(--white); }
-  
-  h1 { 
-    border-bottom: 2px solid var(--blue);
-    color: var(--green);
-  }
-  
- 
-  button {
-    background-color: var(--blue);
-    color: var(--blue);
-    border: 1px solid var(--blue);
-    padding: 5px;
-  }
+  --blue: #1e90ff;
+  --green: #75a888;
+  --black: #000000;
+  --white: #ffffff;
+
+}
+
+body {
+  background-color: var(--white);
+}
+
+h1 {
+  border-bottom: 2px solid var(--blue);
+  color: var(--green);
+}
+
+
+button {
+  background-color: var(--blue);
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  padding: 5px;
+}
+
+label {
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+select {
+  font-size: 0.9rem;
+  padding: 2px 5px;
+}

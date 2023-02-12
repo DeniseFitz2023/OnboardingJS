@@ -9,22 +9,27 @@
 <body>
     
     <script src="./onboard.js"></script>
+    
 	<h1>
 		Onboarding Javascript (Green)
 	</h1>
 
     <p>
         <input type="button" 
-            onclick="populateCountries()" 
+            onclick="populateCountrySelect()" 
                 value="Click to Populate Countries" />
     </p>
+
+    <!--The SELECT element.-->
+    <label> Countries: </label>
+    <select id="country-select" name="countries" onchange="populateStateSelect(getCountrySelecction())"> </select> 
+
+    <!--The SELECT element.-->
+    <label> States: </label>
+    <select id="state-select" name="states"></select> 
     
-    <select id="country">
-        <option value="">Select Country</option>
-      </select>
-      <select id="state">
-        <option value="">Select State</option>
-      </select>
+
+    <p id="msg"></p>
       
 </body>
 
