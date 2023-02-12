@@ -1,5 +1,6 @@
 # OnboardingJS
 Put onboarding JS project here
+3 files index.html, onboard.js onboard.css 
 # Countries and States
 
 Your wrap-up exercise for your onboarding is to make a website (can be just a single HTML page) that will use JavaScript to get data from an external REST API.  The details are as follows:
